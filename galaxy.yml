@@ -1,0 +1,18 @@
+namespace: zartsoft
+name: ansible
+version: 1.0.0
+readme: README.md
+authors:
+  - Konstantin Zemlyak <zart@zartsoft.ru>
+description: infrastructure recipes
+license:
+  - MIT
+tags:
+  - deploy
+dependencies:
+  community.crypto: '>=1.4'
+repository: https://github.com/zart/zartsoft.ansible
+issues: https://github.com/zart/zartsoft.ansible/issues
+build_ignore:
+  - .gitignore
+  - zartsoft-ansible-*.tar.gz
